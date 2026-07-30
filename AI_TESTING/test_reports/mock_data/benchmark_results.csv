@@ -1,0 +1,101 @@
+Filename,Parsed Family,Parsed ALMs,Parsed DSPs,Ground Truth,AI Decision,Latency (ms),Pass/Fail,Error Type,AI Reasoning
+synthetic_test_001_agilex7.flow.rpt,Agilex 7,43195,185,Error,Error,1213.49,PASS,Correct,dsp_blocks (185) exceeds the 87 DSP-block limit.
+synthetic_test_002_agilex7.flow.rpt,Agilex 7,44528,17,Agilex 10,Agilex 10,1363.15,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family.
+synthetic_test_003_cyclonev.flow.rpt,Cyclone V,27247,108,Error,Error,1425.78,PASS,Correct,total_alms (27247) exceeds the 32000 ALM limit for DE-SoC and dsp_blocks (108) exceeds the 80 DSP-block limit.
+synthetic_test_004_cyclonev.flow.rpt,Cyclone V,4082,136,Error,Error,1121.14,PASS,Correct,total_alms (4082) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_005_agilex7.flow.rpt,Agilex 7,7204,27,Agilex 10,Agilex 10,1391.1,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 7204 ALMs and 27 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_006_agilex7.flow.rpt,Agilex 7,31082,71,Agilex 10,Agilex 10,1350.83,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 31082 ALMs and 71 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_007_agilex7.flow.rpt,Agilex 7,47040,15,Agilex 10,Error,1426.27,FAIL,False Rejection,total_alms (47040) exceeds the 32000 ALM limit for DE-SoC and dsp_blocks (15) exceeds the 87 DSP-block limit.
+synthetic_test_008_cyclonev.flow.rpt,Cyclone V,44190,77,Error,DE-SoC,749.91,FAIL,Failed to Reject,Within DE-SoC limits.
+synthetic_test_010_cyclonev.flow.rpt,Cyclone V,26429,63,DE-SoC,DE-SoC,758.28,PASS,Correct,Within DE-SoC limits.
+synthetic_test_011_cyclonev.flow.rpt,Cyclone V,48158,86,Error,Error,1099.22,PASS,Correct,total_alms (48158) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_012_cyclonev.flow.rpt,Cyclone V,10456,1,DE-SoC,DE-SoC,715.51,PASS,Correct,Within DE-SoC limits.
+synthetic_test_013_agilex7.flow.rpt,Agilex 7,50617,95,Error,Error,827.49,PASS,Correct,dsp_blocks (95) exceeds the 87 DSP-block limit.
+synthetic_test_014_cyclonev.flow.rpt,Cyclone V,40343,57,Error,Error,1145.56,PASS,Correct,total_alms (40343) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_015_cyclonev.flow.rpt,Cyclone V,55553,69,Error,Error,1132.53,PASS,Correct,total_alms (55553) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_016_cyclonev.flow.rpt,Cyclone V,18964,47,DE-SoC,DE-SoC,744.4,PASS,Correct,Within DE-SoC limits.
+synthetic_test_017_cyclonev.flow.rpt,Cyclone V,14096,164,Error,Error,1396.08,PASS,Correct,total_alms (14096) exceeds the 32000 ALM limit for DE-SoC and dsp_blocks (164) exceeds the 80 DSP-block limit.
+synthetic_test_018_agilex7.flow.rpt,Agilex 7,55225,150,Error,Error,909.09,PASS,Correct,dsp_blocks (150) exceeds the 87 DSP-block limit.
+synthetic_test_019_cyclonev.flow.rpt,Cyclone V,4169,133,Error,Error,1170.45,PASS,Correct,total_alms (4169) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_020_agilex7.flow.rpt,Agilex 7,18438,186,Error,Error,874.55,PASS,Correct,dsp_blocks (186) exceeds the 87 DSP-block limit.
+synthetic_test_021_agilex7.flow.rpt,Agilex 7,18438,186,Error,Error,858.08,PASS,Correct,dsp_blocks (186) exceeds the 87 DSP-block limit.
+synthetic_test_022_cyclonev.flow.rpt,Cyclone V,2806,34,DE-SoC,DE-SoC,806.7,PASS,Correct,Within DE-SoC limits.
+synthetic_test_023_cyclonev.flow.rpt,Cyclone V,29722,83,Error,Error,1425.57,PASS,Correct,total_alms (29722) exceeds the 32000 ALM limit for DE-SoC and dsp_blocks (83) exceeds the 80 DSP-block limit.
+synthetic_test_024_agilex7.flow.rpt,Agilex 7,18438,186,Error,Error,892.36,PASS,Correct,dsp_blocks (186) exceeds the 87 DSP-block limit.
+synthetic_test_025_agilex7.flow.rpt,Agilex 7,48944,110,Error,Error,877.19,PASS,Correct,dsp_blocks (110) exceeds the 87 DSP-block limit.
+synthetic_test_026_cyclonev.flow.rpt,Cyclone V,29041,15,DE-SoC,DE-SoC,756.04,PASS,Correct,Within DE-SoC limits.
+synthetic_test_027_cyclonev.flow.rpt,Cyclone V,58173,88,Error,Error,1093.71,PASS,Correct,total_alms (58173) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_028_cyclonev.flow.rpt,Cyclone V,8162,121,Error,Error,1079.98,PASS,Correct,total_alms (8162) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_029_agilex7.flow.rpt,Agilex 7,39583,43,Agilex 10,Agilex 10,1383.61,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family.
+synthetic_test_030_cyclonev.flow.rpt,Cyclone V,23276,150,Error,Error,1165.13,PASS,Correct,total_alms (23276) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_031_agilex7.flow.rpt,Agilex 7,59281,102,Error,Error,869.23,PASS,Correct,dsp_blocks (102) exceeds the 87 DSP-block limit.
+synthetic_test_032_agilex7.flow.rpt,Agilex 7,30616,93,Error,Error,883.68,PASS,Correct,dsp_blocks (93) exceeds the 87 DSP-block limit.
+synthetic_test_033_cyclonev.flow.rpt,Cyclone V,55187,55,Error,Error,1163.78,PASS,Correct,total_alms (55187) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_034_cyclonev.flow.rpt,Cyclone V,37692,38,Error,Error,1129.81,PASS,Correct,total_alms (37692) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_035_cyclonev.flow.rpt,Cyclone V,3284,89,Error,Error,1137.91,PASS,Correct,total_alms (3284) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_036_cyclonev.flow.rpt,Cyclone V,24681,80,DE-SoC,DE-SoC,709.04,PASS,Correct,Within DE-SoC limits.
+synthetic_test_037_cyclonev.flow.rpt,Cyclone V,11606,109,Error,Error,1140.71,PASS,Correct,total_alms (11606) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_038_cyclonev.flow.rpt,Cyclone V,23957,159,Error,Error,1407.01,PASS,Correct,total_alms (23957) exceeds the 32000 ALM limit for DE-SoC and dsp_blocks (159) exceeds the 80 DSP-block limit.
+synthetic_test_039_cyclonev.flow.rpt,Cyclone V,8441,32,DE-SoC,DE-SoC,742.13,PASS,Correct,Within DE-SoC limits.
+synthetic_test_040_cyclonev.flow.rpt,Cyclone V,41428,141,Error,Error,1112.23,PASS,Correct,total_alms (41428) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_041_cyclonev.flow.rpt,Cyclone V,31703,80,DE-SoC,DE-SoC,704.39,PASS,Correct,Within DE-SoC limits.
+synthetic_test_042_agilex7.flow.rpt,Agilex 7,54473,96,Error,Error,860.36,PASS,Correct,dsp_blocks (96) exceeds the 87 DSP-block limit.
+synthetic_test_043_cyclonev.flow.rpt,Cyclone V,3208,100,Error,Error,1110.09,PASS,Correct,total_alms (3208) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_044_cyclonev.flow.rpt,Cyclone V,59794,121,Error,Error,1146.19,PASS,Correct,total_alms (59794) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_045_stratix10.flow.rpt,Stratix 10,16888,87,Error,Error,809.03,PASS,Correct,Stratix 10 is not a supported family.
+synthetic_test_046_cyclonev.flow.rpt,Cyclone V,50536,64,Error,Error,1071.88,PASS,Correct,total_alms (50536) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_047_cyclonev.flow.rpt,Cyclone V,20562,79,DE-SoC,DE-SoC,731.07,PASS,Correct,Within DE-SoC limits.
+synthetic_test_048_cyclonev.flow.rpt,Cyclone V,44879,128,Error,Error,1065.05,PASS,Correct,total_alms (44879) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_049_cyclonev.flow.rpt,Cyclone V,50069,164,Error,Error,1076.26,PASS,Correct,total_alms (50069) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_050_agilex7.flow.rpt,Agilex 7,10827,33,Agilex 10,Agilex 10,1362.15,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 10827 ALMs and 33 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_051_agilex7.flow.rpt,Agilex 7,3246,5,Agilex 10,Agilex 10,1348.65,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 3246 ALMs and 5 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_052_agilex7.flow.rpt,Agilex 7,13522,1,Agilex 10,Agilex 10,1394.54,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 13522 ALMs and 1 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_053_cyclonev.flow.rpt,Cyclone V,37216,150,Error,Error,1134.68,PASS,Correct,total_alms (37216) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_054_arriaii.flow.rpt,Arria II,54861,173,Error,Error,747.93,PASS,Correct,Arria II is not a supported family.
+synthetic_test_055_cyclonev.flow.rpt,Cyclone V,19297,32,DE-SoC,DE-SoC,742.03,PASS,Correct,Within DE-SoC limits.
+synthetic_test_056_cyclonev.flow.rpt,Cyclone V,14746,72,DE-SoC,DE-SoC,733.58,PASS,Correct,Within DE-SoC limits.
+synthetic_test_057_cyclonev.flow.rpt,Cyclone V,3180,83,Error,Error,1129.27,PASS,Correct,total_alms (3180) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_058_cyclonev.flow.rpt,Cyclone V,33329,52,Error,Error,1103.61,PASS,Correct,total_alms (33329) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_059_cyclonev.flow.rpt,Cyclone V,56347,40,Error,Error,1102.35,PASS,Correct,total_alms (56347) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_060_cyclonev.flow.rpt,Cyclone V,52771,176,Error,Error,1126.32,PASS,Correct,total_alms (52771) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_061_agilex7.flow.rpt,Agilex 7,44815,73,Agilex 10,Agilex 10,1344.38,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family.
+synthetic_test_062_cyclonev.flow.rpt,Cyclone V,21707,163,Error,Error,1226.34,PASS,Correct,total_alms (21707) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_063_agilex7.flow.rpt,Agilex 7,47979,125,Error,Error,884.43,PASS,Correct,dsp_blocks (125) exceeds the 87 DSP-block limit.
+synthetic_test_064_cyclonev.flow.rpt,Cyclone V,42574,146,Error,Error,1106.23,PASS,Correct,total_alms (42574) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_065_agilex7.flow.rpt,Agilex 7,29333,106,Error,Error,866.07,PASS,Correct,dsp_blocks (106) exceeds the 87 DSP-block limit.
+synthetic_test_066_arriaii.flow.rpt,Arria II,1667,156,Error,Error,729.52,PASS,Correct,Arria II is not a supported family.
+synthetic_test_067_unknown.flow.rpt,Unknown,25562,96,Error,Error,867.42,PASS,Correct,dsp_blocks (96) exceeds the 87 DSP-block limit.
+synthetic_test_068_cyclonev.flow.rpt,Cyclone V,55778,25,Error,Error,1105.47,PASS,Correct,total_alms (55778) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_069_agilex7.flow.rpt,Agilex 7,2832,152,Error,Error,913.55,PASS,Correct,dsp_blocks (152) exceeds the 87 DSP-block limit.
+synthetic_test_070_cyclonev.flow.rpt,Cyclone V,20108,26,DE-SoC,DE-SoC,754.44,PASS,Correct,Within DE-SoC limits.
+synthetic_test_071_agilex7.flow.rpt,Agilex 7,43482,129,Error,Error,844.78,PASS,Correct,dsp_blocks (129) exceeds the 87 DSP-block limit.
+synthetic_test_072_cyclonev.flow.rpt,Cyclone V,17823,8,DE-SoC,DE-SoC,732.1,PASS,Correct,Within DE-SoC limits.
+synthetic_test_073_cyclonev.flow.rpt,Cyclone V,33539,183,Error,Error,1143.39,PASS,Correct,total_alms (33539) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_074_cyclonev.flow.rpt,Cyclone V,30307,106,Error,Error,1135.12,PASS,Correct,total_alms (30307) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_075_cyclonev.flow.rpt,Cyclone V,49180,25,Error,Error,1230.03,PASS,Correct,total_alms (49180) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_076_cyclonev.flow.rpt,Cyclone V,14487,128,Error,Error,1090.17,PASS,Correct,total_alms (14487) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_077_agilex7.flow.rpt,Agilex 7,13349,145,Error,Error,971.22,PASS,Correct,dsp_blocks (145) exceeds the 87 DSP-block limit.
+synthetic_test_078_cyclonev.flow.rpt,Cyclone V,46851,45,Error,Error,1081.92,PASS,Correct,total_alms (46851) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_079_cyclonev.flow.rpt,Cyclone V,58283,94,Error,Error,1143.87,PASS,Correct,total_alms (58283) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_080_agilex7.flow.rpt,Agilex 7,32527,137,Error,Error,845.8,PASS,Correct,dsp_blocks (137) exceeds the 87 DSP-block limit.
+synthetic_test_081_cyclonev.flow.rpt,Cyclone V,50924,178,Error,Error,1078.9,PASS,Correct,total_alms (50924) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_082_cyclonev.flow.rpt,Cyclone V,49551,10,Error,Error,1145.03,PASS,Correct,total_alms (49551) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_083_agilex7.flow.rpt,Agilex 7,20099,99,Error,Error,928.35,PASS,Correct,dsp_blocks (99) exceeds the 87 DSP-block limit.
+synthetic_test_084_agilex7.flow.rpt,Agilex 7,36096,55,Agilex 10,Agilex 10,1393.38,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family.
+synthetic_test_085_agilex7.flow.rpt,Agilex 7,10431,115,Error,Error,849.43,PASS,Correct,dsp_blocks (115) exceeds the 87 DSP-block limit.
+synthetic_test_086_cyclonev.flow.rpt,Cyclone V,13500,170,Error,Error,1131.32,PASS,Correct,total_alms (13500) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_087_cyclonev.flow.rpt,Cyclone V,52192,0,Error,Error,1093.06,PASS,Correct,total_alms (52192) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_088_cyclonev.flow.rpt,Cyclone V,35815,117,Error,Error,1124.95,PASS,Correct,total_alms (35815) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_089_cyclonev.flow.rpt,Cyclone V,32066,190,Error,Error,1139.98,PASS,Correct,total_alms (32066) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_090_agilex7.flow.rpt,Agilex 7,22346,180,Error,Error,908.03,PASS,Correct,dsp_blocks (180) exceeds the 87 DSP-block limit.
+synthetic_test_091_agilex7.flow.rpt,Agilex 7,20625,13,Agilex 10,Agilex 10,1478.17,PASS,Correct,Agilex 7 always maps to Agilex 10 as long as dsp_blocks <= 87; total_alms is not a limiting factor for this family. [Efficiency note: this design only uses 20625 ALMs and 13 DSPs - it could theoretically be recompiled for a DE-SoC board to save Agilex resources.]
+synthetic_test_092_cyclonev.flow.rpt,Cyclone V,41457,26,Error,Error,1050.59,PASS,Correct,"family is not exactly 'Cyclone V', 'Agilex 7', or 'Unknown'."
+synthetic_test_093_cyclonev.flow.rpt,Cyclone V,12118,21,DE-SoC,DE-SoC,733.06,PASS,Correct,Within DE-SoC limits.
+synthetic_test_094_cyclonev.flow.rpt,Cyclone V,11851,63,DE-SoC,DE-SoC,847.22,PASS,Correct,Within DE-SoC limits.
+synthetic_test_095_cyclonev.flow.rpt,Cyclone V,15382,111,Error,Error,1072.69,PASS,Correct,total_alms (15382) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_096_cyclonev.flow.rpt,Cyclone V,56763,5,Error,Error,1096.35,PASS,Correct,total_alms (56763) exceeds the 32000 ALM limit for DE-SoC.
+synthetic_test_097_cyclonev.flow.rpt,Cyclone V,26612,49,DE-SoC,DE-SoC,734.15,PASS,Correct,Within DE-SoC limits.
+synthetic_test_099_arriaii.flow.rpt,Arria II,11017,77,Error,Error,709.89,PASS,Correct,Arria II is not a supported family.
+synthetic_test_09_agilex7.flow.rpt,Agilex 7,18438,186,Error,Error,874.58,PASS,Correct,dsp_blocks (186) exceeds the 87 DSP-block limit.
+synthetic_test_100_unknown.flow.rpt,Unknown,12650,109,Error,Error,868.26,PASS,Correct,dsp_blocks (109) exceeds the 87 DSP-block limit.
+synthetic_test_98_agilex7.flow.rpt,Agilex 7,18438,186,Error,Error,871.27,PASS,Correct,dsp_blocks (186) exceeds the 87 DSP-block limit.

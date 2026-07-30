@@ -1,0 +1,123 @@
+Flow report for alm_ram_killer
+Fri Jun 12 04:47:34 2026
+Quartus Prime Version 26.1.0 Build 110 03/26/2026 SC Pro Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Flow Summary
+  2. Flow Settings
+  3. Flow Non-Default Global Settings
+  4. Flow Elapsed Time
+  5. Flow OS Summary
+  6. Flow Log
+  7. Legal Notice
+
+
+
++------------------------------------------------------------------------------+
+; Flow Summary                                                                 ;
++---------------------------------+--------------------------------------------+
+; Flow Status                     ; Successful - Fri Jun 12 04:47:34 2026      ;
+; Quartus Prime Version           ; 26.1.0 Build 110 03/26/2026 SC Pro Edition ;
+; Revision Name                   ; alm_ram_killer                             ;
+; Top-level Entity Name           ; alm_ram_killer                             ;
+; Family                          ; Agilex 7                                   ;
+; Device                          ; AGFB014R24B2E2V                            ;
+; Timing Models                   ; Final                                      ;
+; Power Models                    ; Final                                      ;
+; Device Status                   ; Final                                      ;
+; Logic utilization (in ALMs)     ; 3,259 / 487,200 ( < 1 % )                  ;
+; Total dedicated logic registers ; 2832                                       ;
+; Total pins                      ; 3 / 924 ( < 1 % )                          ;
+; Total block memory bits         ; 8,388,608 / 145,612,800 ( 6 % )            ;
+; Total RAM Blocks                ; 412 / 7,110 ( 6 % )                        ;
+; Total DSP Blocks                ; 0 / 4,510 ( 0 % )                          ;
+; Total eSRAMs                    ; 0 / 2 ( 0 % )                              ;
+; Total HSSI P-Tiles              ; 0 / 1 ( 0 % )                              ;
+; Total HSSI E-Tile Channels      ; 0 / 24 ( 0 % )                             ;
+; Total HSSI HPS                  ; 0 / 1 ( 0 % )                              ;
+; Total HSSI EHIPs                ; 0 / 4 ( 0 % )                              ;
+; Total PLLs                      ; 0 / 24 ( 0 % )                             ;
++---------------------------------+--------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 06/12/2026 04:41:44 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; alm_ram_killer      ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                           ;
++--------------------------+----------------------------------+---------------+-------------+----------------+
+; Assignment Name          ; Value                            ; Default Value ; Entity Name ; Section Id     ;
++--------------------------+----------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID    ; 335549710675.178126090420876     ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT   ; Verilog Hdl                      ; --            ; --          ; eda_simulation ;
+; EDA_TIME_SCALE           ; 1 ps                             ; --            ; --          ; eda_simulation ;
+; PROJECT_OUTPUT_DIRECTORY ; C:/Agilex/Codes/005/output_files ; --            ; --          ; --             ;
++--------------------------+----------------------------------+---------------+-------------+----------------+
+
+
++------------------------------------------------------+
+; Flow Elapsed Time                                    ;
++-----------------+--------------+---------------------+
+; Module Name     ; Elapsed Time ; Peak Virtual Memory ;
++-----------------+--------------+---------------------+
+; Synthesis       ; 00:00:43     ; 913 MB              ;
+; Fitter          ; 00:04:09     ; 9208 MB             ;
+; Timing Analyzer ; 00:00:18     ; 1851 MB             ;
+; Assembler       ; 00:00:34     ; 3314 MB             ;
+; Total           ; 00:05:44     ; --                  ;
++-----------------+--------------+---------------------+
+
+
++-------------------------------------------------------------------------------+
+; Flow OS Summary                                                               ;
++-----------------+------------------+------------+------------+----------------+
+; Module Name     ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
++-----------------+------------------+------------+------------+----------------+
+; Synthesis       ; LaptopPedro      ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Fitter          ; LaptopPedro      ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Timing Analyzer ; LaptopPedro      ; Windows 11 ; 10.0.26200 ; x86_64         ;
+; Assembler       ; LaptopPedro      ; Windows 11 ; 10.0.26200 ; x86_64         ;
++-----------------+------------------+------------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_syn --read_settings_files=on --write_settings_files=off alm_ram_killer -c alm_ram_killer
+quartus_fit --read_settings_files=on --write_settings_files=off alm_ram_killer -c alm_ram_killer
+quartus_sta alm_ram_killer -c alm_ram_killer --mode=finalize
+quartus_asm --read_settings_files=on --write_settings_files=off alm_ram_killer -c alm_ram_killer
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 2026  Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and any partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera IP License Agreement, or other applicable license
+agreement, including, without limitation, that your use is for
+the sole purpose of programming logic devices manufactured by
+Altera and sold by Altera or its authorized distributors.  Please
+refer to the Altera Software License Subscription Agreements 
+on the Quartus Prime software download page.
+
+
+

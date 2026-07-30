@@ -1,0 +1,3 @@
+D:/Setups/ArchivosGranjaFPGA/Interfaz1.1/plink.exe
+D:/Setups/ArchivosGranjaFPGA/Interfaz1.1/id_rsa.ppk
+Ingeniería Mecatrónica

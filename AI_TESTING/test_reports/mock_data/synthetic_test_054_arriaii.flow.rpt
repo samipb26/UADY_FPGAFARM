@@ -1,0 +1,12 @@
+Flow Summary
+-------------------------------------------------------
+Flow Status ; Successful - Wed Jun 12 12:00:00 2026
+Quartus Prime Version ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name ; mock_project_54
+Top-level Entity Name ; main_module
+Family ; Arria II
+Device ; 5CSEMA5F31C6
+Timing Models ; Final
+Logic utilization (in ALMs) ; 54,861 / 32,070 ( 100% )
+Total DSP Blocks ; 173 / 87 ( 100% )
+Total pins ; 235 / 457 ( 51% )

@@ -1,0 +1,15 @@
+expected_outputs = {
+    "agilex_heavy_core.flow.rpt": "Agilex 10",
+    "alm_annihilator.flow.rpt": "Agilex 10",
+    "alm_ram_killer.flow.rpt": "Agilex 10",
+    "full_adder.flow.rpt": "DE-SoC",
+    "project_clockdiv.flow.rpt": "DE-SoC",
+    "project1_logicgates.flow.rpt": "DE-SoC",
+    "project2_pushsegments.flow.rpt": "DE-SoC",
+    "project3_segmentsdecoder.flow.rpt": "DE-SoC",
+    "project5_digitcount.flow.rpt": "DE-SoC",
+    "project6_servocontroller.flow.rpt": "DE-SoC",
+    "project7_laboratory.flow.rpt": "DE-SoC",
+    "project8_keypadh.flow.rpt": "DE-SoC",
+    "project9_calc.flow.rpt": "DE-SoC"
+}
